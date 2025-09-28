@@ -1,2 +1,12 @@
-let nombre = "Imagen"
+let foto = document.getElementById ("foto");
+let boton = document.getElementById ("boton");
 
+boton.addEventListener("click", function() {
+    if (foto.scr.endsWith = ("images.jpg")) {
+        foto.scr = "Imagen.jpg";
+    
+    } else {
+    foto.scr = "images.jpg"
+
+    } 
+});
